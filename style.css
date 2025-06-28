@@ -76,6 +76,36 @@ body {
   color: #facc15;
 }
 
+.menu-toggle {
+  font-size: 1.8rem;
+  color: #facc15;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #0f172a;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, #4f46e5, #6366f1);
