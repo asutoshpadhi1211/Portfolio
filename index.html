@@ -3,23 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Asutosh | Portfolio</title>
+    <title>Asutosh Padhi</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="hero">
       <nav class="navbar">
-        <h1 class="logo">Asutosh</h1>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+          <h1 class="logo">Asutosh</h1>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </nav>
+
       <div class="hero-content">
         <img src="profile.jpg" alt="Asutosh Padhi" class="profile-pic" />
         <h2>Hello, I'm <span>Asutosh Padhi</span></h2>
-        <p>Computer Science student & Web Developer</p>
+        <p><span class="typing-text"></span></p>
+        <a href="./Resume.pdf" class="btn resume-btn" target="_blank" download
+          >📄 Download Resume</a
+        >
       </div>
     </header>
     <section id="about" class="about-section">
@@ -70,8 +80,16 @@
               JS!
             </p>
             <div class="project-links">
-              <a href="#" target="_blank">Live</a>
-              <a href="#" target="_blank">GitHub</a>
+              <a
+                href="https://asutoshpadhi1211.github.io/Portfolio/"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                href="https://github.com/asutoshpadhi1211/Portfolio"
+                target="_blank"
+                >GitHub</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -152,15 +170,65 @@
         </div>
       </div>
     </section>
-    <section id="resume" class="resume-section">
+
+    <section id="achievements" class="achievements-section">
       <div class="container">
-        <h2>Resume</h2>
-        <p>You can view or download my resume using the button below.</p>
-        <a href="./Resume.pdf" download class="btn" target="_blank"
-          >📄 View/Download Resume</a
-        >
+        <h2>Achievements</h2>
+        <ul class="achievement-list">
+          <li>
+            🏆 Selected for Smart India Hackathon 2023 and 2024 at College Level
+          </li>
+          <li>
+            🛠️ Organizing Committee Member, ICSIT 2025 at Silicon University
+          </li>
+          <li>
+            🎓 Deputy Secretary of Amenities, Silicon Students' Council
+            (2024–25)
+          </li>
+          <li>📚 Organizing Committee Member of ZYGON and LITFEST 2025</li>
+        </ul>
       </div>
     </section>
+
+    <section id="certifications" class="certifications-section">
+      <div class="container">
+        <h2>Certifications</h2>
+        <ul class="certification-list">
+          <li>
+            📘 Machine Learning & Deep Learning – Internship at SiliconTech
+          </li>
+          <li>📗 MERN Stack Internship – CodeBeat (June–July 2024)</li>
+          <li>
+            📕 Introduction to Web Dev – Completed Projects on React, Forms, and
+            E-commerce
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="education-section">
+      <div class="container">
+        <h2>Education</h2>
+        <ul class="education-list">
+          <li>
+            <strong>B.Tech in Computer Science and Engineering</strong><br />
+            Silicon University, Bhubaneswar (2022–Present)<br />
+            CGPA: 8.32
+          </li>
+          <li>
+            <strong>12th CBSE</strong><br />
+            DAV Pokhariput, Bhubaneswar – 2021–2022<br />
+            Percentage: 91.6%
+          </li>
+          <li>
+            <strong>10th CBSE</strong><br />
+            Kendriya Vidyalaya, Rayagada – 2019–2020<br />
+            Percentage: 96.6%
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section id="contact" class="contact-section">
       <div class="container">
         <h2>Contact Me</h2>
