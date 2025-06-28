@@ -110,13 +110,13 @@ body {
 .hero {
   background: linear-gradient(135deg, #4f46e5, #6366f1);
   color: white;
-  padding: 7rem 2rem 3rem;
+  padding: 6rem 2rem 3rem;
   text-align: center;
 }
 
 .hero-content img.profile-pic {
-  width: 180px; /* was 140px */
-  height: 180px;
+  width: 220px; /* was 140px */
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
@@ -357,6 +357,16 @@ body {
   font-size: 1rem;
   text-align: left;
   color: #333;
+}
+
+.certification-list a {
+  text-decoration: none;
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.certification-list a:hover {
+  color: #4338ca;
 }
 
 /*Education Section*/
